@@ -78,33 +78,60 @@ function TabortRättofel(element) {
 
 const questions = [
   {
-    question: "What is 2 + 2?",
+    question: "What was Phone Guys favorite Animatronis",
 
     answers: [
-      { text: "4", correct: true },
-      { text: "22", correct: false },
+      { text: " Foxy", correct: true },
+      { text: "Chica", correct: false },
+      { text: "Bonnie", correct: false },
+      { text: "Freedy", correct: false },
     ],
   },
   {
-    question: "Who is the best YouTuber?",
+    question:
+      "Which two names are both mentioned in FnaF 2, and also on the gravestones?",
     answers: [
-      { text: "Web Dev Simplified", correct: true },
-      { text: "Traversy Media", correct: true },
-      { text: "Dev Ed", correct: true },
-      { text: "Fun Fun Function", correct: true },
+      { text: "Jeremy & Gabriel", correct: false },
+      { text: "Gabriel & Susie", correct: false },
+      { text: "Susie & Fritz", correct: false },
+      { text: "Fritz & Jeremy", correct: true },
+      { text: "Cassidy & Charlotte", correct: false },
     ],
   },
   {
-    question: "Is web lol fun?",
+    question: "Which animatronics crash your game?",
     answers: [
-      { text: "Kinda", correct: false },
-      { text: "YES!!!", correct: true },
-      { text: "Um no", correct: false },
-      { text: "IDK", correct: false },
+      { text: "Golden Freddy & Balloon Boy", correct: false },
+      { text: "Golden Freddy & Nightmare", correct: true },
+      { text: "Nightmare & Mangle", correct: false },
+      { text: "Balloon Boy & Mangle", correct: false },
     ],
   },
   {
-    question: "What is 4 * 2?",
-    answers: [{ text: "6", correct: false }, { text: "8", correct: true }, {}],
+    question: "Who did the bite of 83? (Debatable!)",
+    answers: [
+      { text: "Baby (Circus Baby (SL))", correct: true },
+      { text: "Fredbear", correct: true },
+      { text: "Purple Guy", correct: false },
+      { text: "Nightmare", correct: false },
+    ],
+  },
+  {
+    question: "Who is the man behind the slaughter?",
+    answer: [
+      { text: "Freedy", correct: false },
+      { text: "FredBear", correct: false },
+      { text: "Purple Guy", correct: true },
+      { text: "Nightmare", correct: false },
+    ],
+  },
+  {
+    question: "Which animatronic is the best?",
+    answer: [
+      { text: "Freedy", correct: false },
+      { text: "Bonnie( Nej Iman, han är inte bäst)", correct: true },
+      { text: "Funtime Foxy", correct: true },
+      { text: "Foxy", correct: false },
+    ],
   },
 ];
