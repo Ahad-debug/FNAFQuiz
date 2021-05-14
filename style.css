@@ -20,17 +20,13 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background: #200122; /* fallback for old browsers */
+  background: #200122;
   background: -webkit-linear-gradient(
     to right,
     #6f0000,
     #200122
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #6f0000,
-    #200122
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #6f0000, #200122);
 }
 
 body.correct {
@@ -129,7 +125,6 @@ a {
   padding: 5px;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
