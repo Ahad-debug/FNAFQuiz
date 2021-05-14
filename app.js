@@ -78,18 +78,17 @@ function TabortRättofel(element) {
 
 const questions = [
   {
-    question: "What was Phone Guys favorite Animatronis",
-
+    question: "Who is the man behind the slaughter?",
     answers: [
-      { text: " Foxy", correct: true },
-      { text: "Chica", correct: false },
-      { text: "Bonnie", correct: false },
-      { text: "Freedy", correct: false },
+      { text: "Purple guy", correct: true },
+      { text: "Freddy", correct: false },
+      { text: "Nightmare", correct: false },
+      { text: "Slender man", correct: false },
     ],
   },
   {
     question:
-      "Which two names are both mentioned in FnaF 2, and also on the gravestones?",
+      "Which two names are both mentioned in FnaF 2, and also on the gravestones",
     answers: [
       { text: "Jeremy & Gabriel", correct: false },
       { text: "Gabriel & Susie", correct: false },
@@ -99,39 +98,29 @@ const questions = [
     ],
   },
   {
-    question: "Which animatronics crash your game?",
-    answers: [
-      { text: "Golden Freddy & Balloon Boy", correct: false },
-      { text: "Golden Freddy & Nightmare", correct: true },
-      { text: "Nightmare & Mangle", correct: false },
-      { text: "Balloon Boy & Mangle", correct: false },
-    ],
-  },
-  {
     question: "Who did the bite of 83? (Debatable!)",
     answers: [
-      { text: "Baby (Circus Baby (SL))", correct: true },
-      { text: "Fredbear", correct: true },
+      { text: "Baby(Circus Baby)", correct: true },
       { text: "Purple Guy", correct: false },
-      { text: "Nightmare", correct: false },
-    ],
-  },
-  {
-    question: "Who is the man behind the slaughter?",
-    answer: [
-      { text: "Freedy", correct: false },
-      { text: "FredBear", correct: false },
-      { text: "Purple Guy", correct: true },
+      { text: "FredBear", correct: true },
       { text: "Nightmare", correct: false },
     ],
   },
   {
     question: "Which animatronic is the best?",
-    answer: [
+    answers: [
       { text: "Freedy", correct: false },
-      { text: "Bonnie( Nej Iman, han är inte bäst)", correct: true },
+      { text: "Bonnie( Nej Iman, han är inte bäst)", correct: false },
       { text: "Funtime Foxy", correct: true },
       { text: "Foxy", correct: false },
+    ],
+  },
+  {
+    question: "Fick jag A?",
+    answers: [
+      { text: "Nej du kopierade koden", correct: false },
+      { text: "Ja för Sebbe är en king", correct: true },
+      { text: "*Freedy jumspscare*", correct: true },
     ],
   },
 ];

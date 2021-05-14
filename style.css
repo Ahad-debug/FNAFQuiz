@@ -105,13 +105,15 @@ p {
   margin-right: 20vw;
   margin-left: 20vw;
   color: white;
+  font-family: "Chelsea Market", cursive;
 }
 a {
+  margin-bottom: px;
   text-decoration: none;
   display: flex;
   justify-content: center;
   vertical-align: center;
-  margin-top: 20px;
+  margin-top: ;
   --hue: var(--hue-neutral);
   border: 10px solid hsl(var(--hue), 100%, 30%);
   background-color: hsl(var(--hue), 100%, 50%);
@@ -119,4 +121,17 @@ a {
   padding: 5px 10px;
   color: white;
   outline: none;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
